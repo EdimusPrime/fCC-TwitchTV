@@ -1,0 +1,119 @@
+/*
+*{
+	color: white;
+}*/
+
+body{
+	background-color: #D7DED4;
+}
+
+.logo{
+	height: 164px;
+	width: 540px;
+	margin-top: 1rem;
+	margin-bottom: 1rem;
+}
+
+.twitchBox{
+	border:1px solid black;
+	background-color: #595B60;
+	margin-top: 15rem;
+	border: .3rem solid black;
+	border-radius: 3rem;
+}
+
+.statusFilter{
+	/*border:1px solid black;*/
+	align-content: space-between;
+	margin-top: 3rem;
+}
+
+.status{
+	display: flex;
+	background-color: #D4DCDE;
+	border:1px solid black;
+	margin: .5rem 0;
+	/*justify-content:space-around;*/
+	padding-left: 1.5rem;
+	padding-top: .3rem;
+}
+
+.statusCode{
+	border:1px solid black;
+	border-radius: 90px;
+	height: 2rem;
+	width: 2rem;
+}
+
+.statusAll:hover{
+	cursor: pointer;
+}
+.statusOn:hover{
+	cursor: pointer;
+}
+.statusOff:hover{
+	cursor: pointer;
+}
+
+.all{
+	background-color: none;
+}
+
+.online{
+	background-color: #83BD68
+}
+
+.offline{
+	background-color: #BD7868
+}
+
+.header{
+	/*border:1px solid black;	*/
+	color: #E0E3EE;
+	margin:auto;
+}
+
+.twitchHeader{
+	/*border:1px solid black;*/
+	/*width: 60vw;*/
+	display: flex;
+	justify-content: space-around;
+	border-bottom: 8px solid white;
+	margin:auto;
+}
+
+.streamers{
+	height: 30vh;
+	overflow: scroll;
+	background-color: #68ADBD;
+	border-radius: 3rem;
+}
+
+.streamerBar{
+	border:1px solid white;
+	display: flex;
+	/*justify-content: space-between;*/
+	align-items: baseline;
+}
+
+.profilePic{
+	border-radius: 30px;
+	margin: auto;
+}
+
+.game{
+	padding: 1rem;
+}
+
+.name{
+	border:1px solid black;
+	display: flex;
+	justify-content: flex-start;
+	/*color: #A368BD;*/
+}
+
+.game{
+	display: flex;
+	justify-content: center;
+	border:1px solid black;	
+}
