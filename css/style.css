@@ -86,7 +86,8 @@ body{
 	height: 30vh;
 	overflow: scroll;
 	background-color: #68ADBD;
-	border-radius: 3rem;
+	/*border-radius: 3rem;*/
+	align-items: baseline;
 }
 
 .streamerBar{
@@ -106,7 +107,7 @@ body{
 }
 
 .name{
-	border:1px solid black;
+	/*border:1px solid black;*/
 	display: flex;
 	justify-content: flex-start;
 	/*color: #A368BD;*/
@@ -116,4 +117,5 @@ body{
 	display: flex;
 	justify-content: center;
 	border:1px solid black;	
+	margin: auto;
 }
