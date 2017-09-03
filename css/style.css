@@ -95,11 +95,15 @@ body{
 	display: flex;
 	/*justify-content: space-between;*/
 	align-items: baseline;
+	padding-right: 3rem;
+	padding-left: 3rem;
 }
 
 .profilePic{
 	border-radius: 30px;
 	margin: auto;
+	width: 10rem;
+	height: 10rem;
 }
 
 .game{
